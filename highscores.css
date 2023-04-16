@@ -1,0 +1,15 @@
+/*Title: How to Make a Quiz App using HTML CSS Javascript- Vanilla Javascript Project for Beginners Tutorial * Author:(Brian Designs) * Date: (2020) * Code version:(v1) * Availability:https://www.youtube.com/watch?v=f4fB9Xg2JEY ()*/
+body{
+    color:white
+}
+
+#highScoresList{
+    list-style:none;
+    margin-bottom:4rem;
+}
+
+.high-score{
+    font-size:3.0rem;
+    margin-bottom:0.5rem;
+}
+
