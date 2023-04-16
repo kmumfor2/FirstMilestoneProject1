@@ -1,0 +1,132 @@
+/*Font from Google Fonts
+Title: How to Make a Quiz App using HTML CSS Javascript- Vanilla Javascript Project for Beginners Tutorial * Author:(Brian Designs) * Date: (2020) * Code version:(v1) * Availability:https://www.youtube.com/watch?v=f4fB9Xg2JEY () */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+/*Background Image*/
+body {
+    background-image: url("https://img.itch.zone/aW1nLzYzNjc2MTUucG5n/original/FIyOgg.png");
+  }
+
+:root{
+    background-color: rbg(29,26,26)
+}
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    font-family:'Space Grotesk', sans-serif;
+
+}
+
+h1{
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+ h2{
+    font-size: 3.2rem;
+    margin-bottom: 4rem; 
+    color:white;
+ }
+
+/*FlexBox Styling*/
+ .container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+ }
+
+ .flex-column{
+    display: flex;
+    flex-direction: column;
+ }
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content:center;
+}
+
+.hidden {
+    display: none;
+}
+
+/*Button Styling*/
+.btn{
+font-size:2.4rem;
+padding:2rem 0;
+width:30rem;
+text-align: center;
+margin-bottom:1rem;
+text-decoration:none;
+color: black;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,9,121,1) 35%, rgba(0,212,255,1) 100%); /*used free linear gradient generator for CSS*/
+border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor:not-allowed;
+    transform:none;
+}
+
+#highscore-btn {
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 35%, rgba(0,212,255,1) 100%);
+}
+/* End-Page Styling*/
+
+.end-form-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    max-width:30rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding:1.5rem;
+    font-size:1.8rem;
+    border:none; 
+}
+
+input::placeholder{
+    color:rgb(185, 185, 233)
+
+}
+
+#username{
+    margin-bottom:3rem;
+    width:100%;
+    outline: none;
+}
+
+#end-text{
+    font-size:2.6rem;
+    color:#fff;
+    text-align:center;
+
+}
+
+#saveScoreBtn{
+    border:none;
+}
+
